@@ -1,0 +1,10 @@
+{
+  "name": "super-ss-e2e",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "super-ss-e2e/src",
+  "projectType": "application",
+  "tags": [],
+  "implicitDependencies": ["super-ss"],
+  "// targets": "to see all targets run: nx show project super-ss-e2e --web",
+  "targets": {}
+}

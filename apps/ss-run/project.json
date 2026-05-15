@@ -1,0 +1,21 @@
+{
+  "name": "ss-run",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/ss-run/src",
+  "projectType": "application",
+  "targets": {
+    "dev": {
+      "command": "vite --config apps/ss-run/vite.config.ts"
+    },
+    "build": {
+      "command": "vite build --config apps/ss-run/vite.config.ts"
+    },
+    "preview": {
+      "command": "vite preview --config apps/ss-run/vite.config.ts"
+    }
+  },
+  "tags": [
+    "scope:games",
+    "type:app"
+  ]
+}
